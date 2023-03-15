@@ -16,6 +16,8 @@ def get(array, index, default=None):
 
     return array[index]
 
+print(get([1, 2, 3], 1, "test"))
+
 
 def my_slice(coll, start=0, end=None):
     """
